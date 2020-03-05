@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: prawinkorvi/petclinicimage
-  tag: latest
+  repository: caodangtinh/petclinic
+  tag: 4
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -25,7 +25,7 @@ podSecurityContext: {}
 
 securityContext: {}
   # capabilities:
-  #   drop:
+  #   drGop:
   #   - ALL
   # readOnlyRootFilesystem: true
   # runAsNonRoot: true
